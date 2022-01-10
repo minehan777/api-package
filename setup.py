@@ -6,6 +6,8 @@ setup(
     author='',
     url='',
     description='',
+    packages=find_packages("src"),
+    package_dir={"": "src"},
     install_requires=[],
     extras_require={
         'develop' : [],
